@@ -18,7 +18,9 @@ class ArticleDetailPage extends StatelessWidget{
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Image.network(article.urlToImage),
+            Hero(
+                tag: "gbr",
+                child: Image.network(article.urlToImage)),
             Padding(
                 padding: EdgeInsets.all(10),
               child: Column(
