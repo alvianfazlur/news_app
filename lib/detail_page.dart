@@ -19,7 +19,7 @@ class ArticleDetailPage extends StatelessWidget{
         child: Column(
           children: [
             Hero(
-                tag: "gbr",
+                tag: article.urlToImage,
                 child: Image.network(article.urlToImage)),
             Padding(
                 padding: EdgeInsets.all(10),
